@@ -1,5 +1,5 @@
 
-$alldistLists = Get-DistributionGroup ChubbEuropeGermanyDuesseldorf@Chubb.com
+$alldistLists = Get-DistributionGroup dlname
 
 Foreach ($distList in $alldistLists){
 	$distListMembers = $null
